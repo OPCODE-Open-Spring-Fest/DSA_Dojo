@@ -1,4 +1,4 @@
-![DSA Dojo logo](https://github.com/OPCODE-Open-Spring-Fest/DSA_Dojo/assets/123867126/1c37bfc4-0100-4a83-9fcd-dcdb16f93970)
+![Black and Blue Neon Tech Online Sale Cyber Monday Sale Video](https://github.com/Roshu2003/DSA_Dojo/assets/123867126/06bf32a7-4598-4187-8b72-99fe043283b5)
 
 # DSA Dojo
 
