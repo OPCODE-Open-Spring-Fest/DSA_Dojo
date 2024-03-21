@@ -13,7 +13,7 @@ DSA Dojo is a project designed to improve proficiency in Data Structures and Alg
 
 ## Contact 📱
 
-If you have any questions or feedback, please reach out to us at roshan.2201021cs@iiitbh.ac.in. 📧
+If you have any questions or feedback, please reach out to us at roshan.2201021cs@iiitbh.ac.in or abhijeet.2201164ec@iiitbh.ac.in 📧
 
 ### Setup
 
