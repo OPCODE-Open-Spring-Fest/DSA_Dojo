@@ -15,7 +15,7 @@ public:
 template <typename T> class Set {
     private:
         Node<T> * root;
-        int size;
+        int length;
     public:
         Set();                    //default constructor
         Set(T element);           //constructor to initialise set with one number

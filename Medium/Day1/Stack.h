@@ -13,7 +13,7 @@ public:
 template <typename T> class Stack {
     private:
         Node<T> * Top;
-        int size;
+        int length;
     public:
         Stack();                    //default constructor
         Stack(T element);           //constructor to initialise stack with one number
