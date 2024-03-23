@@ -15,11 +15,19 @@ public:
 template <typename T> class Stack {
     private:
         Node<T> * Top;
+
         int stackSize;
     public:
         Stack();                    //default constructor
         Stack(T element);           //constructor to initialize stack with one number
         Stack(T arr[],int n);             //constructor to initialize stack from an array
+
+        int length;
+    public:
+        Stack();                    //default constructor
+        Stack(T element);           //constructor to initialise stack with one number
+        Stack(T arr[], int n);      //constructor to initialise stack from an array containing n elements
+
         const T& top();             //return element at top of the stack
         T pop();                    //return element at top of stack and deletes it
         void push(T element);       //inserts element into the stack
