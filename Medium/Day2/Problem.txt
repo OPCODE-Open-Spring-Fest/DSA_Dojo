@@ -1,0 +1,12 @@
+Little X is planning a grand party in Treeland!  There are n friendly forest creatures (numbered 1 to n) who live in a beautiful tree with pathways connecting their homes. Each path has a certain travel time.
+
+Little X wants to organize a fun meet-and-greet where everyone gets to chat with as many creatures as possible!  He wants to figure out the best seating arrangement for the party.
+
+Here's the twist: The more distant two creatures live in the tree, the more interesting their conversations will be!  Little X wants to find a seating order (a permutation) where the total travel time between all the creatures attending the party is maximized.
+
+If there are multiple seating arrangements with the same maximum travel time, Little X, being the organized friend he is, wants to find the one with the smallest numbering order (lexicographically smallest one).
+
+**Input**
+The first line contains an integer n (1 ≤ n ≤ 10^5).
+
+Each of the next n - 1 lines contains three space separated integers ui,  vi, wi (1 ≤  ui,  vi ≤  n; 1 ≤  ti ≤  10^5), denoting an path between creatures ui and vi with travel time to ti.
