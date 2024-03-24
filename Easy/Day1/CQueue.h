@@ -19,10 +19,15 @@ public:
     /**
      * @brief Constructor for the circular queue object.
      * 
-     * @param s The initial size of the circular queue.
-     * @throws std::invalid_argument if the size is greater than 10.
+     * @param s The initial size of the circular queue (default size is 10).
+     * @throws std::invalid_argument if the size is less than or equal to 0.
      */
-    CQueue(int s);
+    CQueue(int s = 10);
+
+    /**
+     * @brief Destructor to deallocate memory.
+     */
+    ~CQueue();
 
     /**
      * @brief Pushes an element into the circular queue.
@@ -53,7 +58,7 @@ public:
      * 
      * @return The number of elements in the queue.
      */
-    T size() const;
+    int size() const;
 
     /**
      * @brief Checks if the circular queue is empty.
@@ -64,11 +69,17 @@ public:
 };
 
 template <typename T>
-CQueue<T>::CQueue(int s) : front(-1), back(-1), length(s) {
-    if (s > 10) {
-        throw std::invalid_argument("Size of circular queue should not exceed 10");
+CQueue<T>::CQueue(int s) : front(-1), back(-1) {
+    if (s <= 0) {
+        throw std::invalid_argument("Size of circular queue should be greater than 0");
     }
+    length = s > 10 ? s : 10;  // Set the size to 10 if s is less than or equal to 10
     arr = new T[length];
+}
+
+template <typename T>
+CQueue<T>::~CQueue() {
+    delete[] arr;  // Deallocate the memory allocated for the array
 }
 
 template <typename T>
@@ -113,7 +124,7 @@ const T& CQueue<T>::getFront() const {
 }
 
 template <typename T>
-T CQueue<T>::size() const {
+int CQueue<T>::size() const {
     if (front == -1) {
         return 0;
     } else if (back >= front) {
