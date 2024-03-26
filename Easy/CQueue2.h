@@ -15,7 +15,7 @@ template <typename T>
 class Node
 {
 public:
-    T data;        ///< The data element stored in the node.
+    T data;        ///< The data element to be stored.
     Node<T> *link; ///< Pointer to the next node in the linked list.
 
     /**
