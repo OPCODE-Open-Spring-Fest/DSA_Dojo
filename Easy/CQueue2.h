@@ -4,7 +4,7 @@
 #include <stdexcept>
 
 /**
- * @brief Node class for the circular queue.
+ * @brief Node class for the circular queue
  *
  * This class represents a node in the circular queue's linked list.
  * It stores the data element and a pointer to the next node.
