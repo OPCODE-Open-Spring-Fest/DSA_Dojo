@@ -1,0 +1,9 @@
+Input
+4
+a
+b
+ab
+d
+
+Output
+2

@@ -1,0 +1,18 @@
+A Devious Hacker's Challenge
+
+A cunning hacker, determined to snag problems from the upcoming hacking Event, infiltrated the admin's office and swiped a list containing n secret passwords (all lowercase letters). Back in their lair, they discovered a strange quirk in the hacking Event system: passwords are considered the same if they share at least one letter, or if there's another password on the list that bridges the gap between them (like a mutual friend!).
+
+The goal? Crack the admin password and access the system. The catch? They only have a limited number of attempts.
+
+The Question: Minimum Infiltration Tools
+
+Can you help the hacker figure out the minimum number of passwords they need to guarantee access to the system,  regardless of the actual admin password? Remember, they're clueless about which password protects the system's secrets!
+
+Input
+The first line contain integer n (1≤n≤2⋅105) — number of passwords in the list. Next n lines contains passwords from the list – non-empty strings si, with length at most 50 letters. Some of the passwords may be equal.
+
+It is guaranteed that the total length of all passwords does not exceed 10^6 letters. All of them consist only of lowercase Latin letters.
+
+Output
+In a single line print the minimal number of passwords, the use of which will allow guaranteed to access the system.
+
