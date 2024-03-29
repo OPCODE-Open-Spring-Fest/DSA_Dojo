@@ -1,0 +1,12 @@
+Input:
+
+5 6
+110111
+001000
+100001
+101000
+101110
+Output:
+
+1
+Explanation: The strings 101000 and 001000 differ only at the first position.
