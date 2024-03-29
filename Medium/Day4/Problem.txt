@@ -1,0 +1,10 @@
+
+Given a tree, a connected graph without cycles, with n vertices, we define the graph Gk as follows: Gk is an undirected graph with n vertices, where an edge between vertices u and v exists if and only if the distance between vertices u and v in the given tree is at least k.
+
+For each integer k from 1 to n, we must determine and print the number of connected components in the graph Gk.
+
+Input
+The first line contains the integer n (2≤n≤105) — the number of vertices in the graph.
+
+Each of the next n−1
+ lines contains two integers u and v (1≤u,v≤n), denoting an edge between vertices u and v in the tree. It is guaranteed that these edges form a valid tree.

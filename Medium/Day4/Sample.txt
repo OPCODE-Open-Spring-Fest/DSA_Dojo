@@ -1,0 +1,14 @@
+Input
+6
+1 2
+1 3
+2 4
+2 5
+3 6
+
+Output
+1 1 2 4 6 6 
+
+Explenation
+
+In the first example: If k=1 , the graph has an edge between each pair of vertices, so it has one component. If k=4, the graph has only edges 4↔6 and 5↔6, so the graph has 4 components.
