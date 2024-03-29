@@ -1,6 +1,0 @@
-Consider a network consisting of n computers and m connections. Each connection specifies how fast a computer can send data to another computer.
-Kotivalo wants to download some data from a server. What is the maximum speed he can do this, using the connections in the network?
-
-Input
-The first input line has two integers n and m: the number of computers and connections. The computers are numbered 1,2,\dots,n. Computer 1 is the server and computer n is Kotivalo's computer.
-After this, there are m lines describing the connections. Each line has three integers a, b and c: computer a can send data to computer b at speed c.

@@ -1,0 +1,6 @@
+
+You have been provided with n binary strings, each with a length of k bits. Your objective is to compute the minimum Hamming distance between any two strings.
+
+Input
+The first input line has two integers n and k: the number of bit strings and their length. 
+Then there are n lines each consisting of one bit string of length k
