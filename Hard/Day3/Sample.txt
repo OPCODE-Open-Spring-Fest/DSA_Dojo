@@ -1,0 +1,6 @@
+Input
+5
+oof
+
+Output
+575111451
