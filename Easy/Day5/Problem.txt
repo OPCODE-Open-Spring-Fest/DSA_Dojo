@@ -1,0 +1,16 @@
+Once upon a time, in a land with n charming cities linked by m intricate flight connections, 
+there was a traveler yearning to embark on an unforgettable journey. This traveler, let's call 
+them Alex, had a burning desire to explore the wonders of this realm, starting from the quaint town of Valleyview and 
+concluding their adventure in the bustling city of Riverside.
+
+However, Alex had a unique twist to their journey—they wanted to visit each city exactly once, ensuring a truly immersive experience.
+ As they pondered their route, Alex couldn't help but wonder: how many different paths could lead them from Valleyview to Riverside,
+touching every city along the way?
+
+2 <= n <= 20
+1 <= m <= n^2
+1 <= a,b <= n
+
+-The cities are numbered 1,2,...,n.
+-Then, there are m lines describing the flights.
+Each line has two integers a and b: there is a flight from city a to city b. All flights are one-way flights.
