@@ -183,3 +183,97 @@ void Set<T>::inorderTraversal(Node<T>* root) {
     }
 }
 
+// Added the required functions
+
+// Union
+template <typename T>
+Set<T> Set<T>::Union(Set& s) {
+    Set<T> result(*this);
+    Node<T>* temp = s.root;
+    while (temp != nullptr) {
+        result.insert(temp->data);
+        temp = temp->second;
+    }
+    return result;
+}
+
+// Intersection
+template <typename T>
+Set<T> Set<T>::Intersection(Set& s) {
+    Set<T> result;
+    Node<T>* temp = root;
+    while (temp != nullptr) {
+        if (s.contains(temp->data))
+            result.insert(temp->data);
+        temp = temp->second;
+    }
+    return result;
+}
+
+// Difference of two sets
+template <typename T>
+Set<T> Set<T>::operator-(Set& s) {
+    Set<T> result(*this);
+    Node<T>* temp = s.root;
+    while (temp != nullptr) {
+        if (result.contains(temp->data))
+            result.remove(temp->data);
+        temp = temp->second;
+    }
+    return result;
+}
+
+// True if both sets are equal else false
+template <typename T>
+bool Set<T>::operator==(Set& s) {
+    if (length != s.size())
+        return false;
+
+    Node<T>* temp = root;
+    while (temp != nullptr) {
+        if (!s.contains(temp->data))
+            return false;
+        temp = temp->second;
+    }
+    return true;
+}
+
+// Cartesian product of the sets
+template <typename T>
+void Set<T>::operator*(Set& s) {
+    Node<T>* temp1 = root;
+    while (temp1 != nullptr) {
+        Node<T>* temp2 = s.root;
+        while (temp2 != nullptr) {
+            std::cout << "(" << temp1->data << ", " << temp2->data << ")" << std::endl;
+            temp2 = temp2->second;
+        }
+        temp1 = temp1->second;
+    }
+}
+
+// Upper bound
+template <typename T>
+T Set<T>::upper_bound(T num) {
+    Node<T>* temp = root;
+    T upper = std::numeric_limits<T>::max();
+    while (temp != nullptr) {
+        if (temp->data > num && temp->data < upper)
+            upper = temp->data;
+        temp = temp->second;
+    }
+    return upper;
+}
+
+// Lower bound
+template <typename T>
+T Set<T>::lower_bound(T num) {
+    Node<T>* temp = root;
+    T lower = std::numeric_limits<T>::min();
+    while (temp != nullptr) {
+        if (temp->data < num && temp->data > lower)
+            lower = temp->data;
+        temp = temp->second;
+    }
+    return lower;
+}
