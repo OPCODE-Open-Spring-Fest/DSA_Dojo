@@ -1,0 +1,11 @@
+You are given an array 
+a0,a1,...,aN−1 of length N. Process Q queries of the following types.
+
+0 p x: ap ← ap + x
+1 l r: Print ∑(i=l)(r−1)ai.
+
+1≤N,Q≤500,000
+0≤ai,x≤10^9 
+0≤p<N
+0≤li<ri≤N
+All values in Input are integer.
