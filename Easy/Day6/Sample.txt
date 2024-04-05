@@ -1,0 +1,5 @@
+Input
+6 6 4
+
+Output
+4
