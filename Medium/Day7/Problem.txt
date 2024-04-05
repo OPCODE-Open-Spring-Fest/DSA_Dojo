@@ -1,0 +1,9 @@
+Luna is traversing Mistland on a misty day with 'a' units of fuel. Each unit enables her to travel a distance of 1 unit.
+Determine the total number of cities she can reach given her current location and the interconnected city layout.
+
+The opening line includes four integers:
+n: denoting the quantity of cities in Mistland.
+k: representing the count of roads linking various cities in Mistland.
+a: the remaining fuel units in Luna's vehicle.
+c: Luna's current city.
+The subsequent m lines delineate the road connections between cities as pairs of integers u,v, signifying a two-way road between cities u and v.
