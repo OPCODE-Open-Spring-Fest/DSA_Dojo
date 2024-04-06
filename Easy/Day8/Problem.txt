@@ -1,0 +1,12 @@
+Your task is to efficiently calculate values a^b modulo 10^9+7.
+Note that in this task we assume that 0^0=1.
+
+Input
+The first input line contains an integer n: the number of calculations.
+After this, there are n lines, each containing two integers a and b.
+Output
+Print each value a^b modulo 10^9+7.
+
+Constraints:
+1 <= n <= 2*10^5
+0 <= a,b <= 10^9
