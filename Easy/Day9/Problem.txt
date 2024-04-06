@@ -1,0 +1,11 @@
+Your task is to calculate the number of unique rings comprising n gems, each available in 
+m different hues. Rings are deemed distinct if they cannot be rotated to align with each other.
+Your objective is to determine the total count of such distinct rings possible under these specifications.
+
+Input
+The only input line has two numbers n and m: the number of gems and hues.
+Output
+Print one integer: the number of different rings modulo 10^9+7.
+
+Constraints:
+1 <= n,m <=10^6
