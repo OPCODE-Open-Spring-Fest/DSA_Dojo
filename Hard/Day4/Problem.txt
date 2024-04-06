@@ -1,0 +1,16 @@
+Once upon a time, the denizens of Middle-earth, including humans, elves, dwarves, and various other beings
+,united to reclaim their stolen treasures from the clutches of Smaug. Under the leadership of the formidable elf Timothy,
+they embarked on the quest to overthrow the ruler of the Lonely Mountain.
+
+The army of Middle-earth comprises several divisions, each representing a squad.
+It is understood that if two creatures of the same race are in different squads, they contribute 'a' units to the army's total strength.
+However, due to the challenges associated with leading a vast army, Timothy recognizes the need to streamline operations.
+Thus, for an army consisting of l brigades, the total strength is diminished by (l−1)⋅x units. It's important to note that the army must contain at least one squad.
+
+With m distinct races inhabiting Middle-earth, the number of creatures belonging to the i-th race is denoted as 'di'.
+Our task is to aid the inhabitants of Middle-earth in determining the maximum achievable strength of their assembled army.
+
+Each test consists of multiple test cases. The first line contains a single integer z (1≤z≤2⋅104) — the number of test cases. The description of the test cases follows.
+
+The first line of each test case contains three integers n, a ,and x (1 ≤ m ≤ 2⋅10^5 ,1 ≤ a ≤ 10^6,0 ≤ x ≤ 10^9) — the number of races and the constants a and x described above.
+The second line of each test case contains m integers d1,d2,…,dn (1≤di≤2⋅105) — the number of creatures of each of the m races.

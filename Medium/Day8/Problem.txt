@@ -6,5 +6,6 @@ c are in the same group, then integers a and c are also said to be in the same g
 
 Find the total number of groups formed in the end.
 
+Constraints:
 1 ≤ T ≤ 2⋅10^5
 2 ≤ N ≤ 10^7
