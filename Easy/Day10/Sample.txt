@@ -1,0 +1,5 @@
+Input
+2 3 100
+
+Output
+8

@@ -1,0 +1,16 @@
+Each element in the structure can be assigned one of exactly 'P' patterns.
+Determine the count of distinct pattern assignments to the structure such that:
+
+All elements along any path of length at most two have unique patterns.
+To manage the potentially large result, output it modulo 10^9+7.
+
+Two pattern assignments of the structure are considered different if there exists at least one element that has different patterns in both assignments.
+A path in the structure is a sequence of connected elements, where the path length between two elements is defined as the total number of edges in the shortest path from one element to the other.
+
+The first line of the input will contain two integers N and P, the number of element in the structure and the number of patterns available respectively.
+The next (N−1) lines will describe the given structure. Each line contains two integers a and b meaning that there is an edge between element a and element b.
+
+Constraints
+1≤N≤10^6
+1≤P≤10^6
+1≤a,b≤N

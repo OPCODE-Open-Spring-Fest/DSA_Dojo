@@ -1,0 +1,16 @@
+Virat, recently appointed as a brand ambassador for 'A' Corporation, was tasked with establishing connections among 'a' brands using 
+'b' two-way direct links. These connections would enable the seamless transmission of money between any pair of brands.
+Each direct link must connect two distinct brands, ensuring that each pair of brands has at most one direct link.
+
+However, 'B' Corporation, a rival of 'A' Corporation, approached Virat with an offer he couldn't refuse.
+They requested that Virat design the brand connections in such a way that if any brand indexed as v were to fail,
+the money transmission between certain other brands would become impossible. In other words, the system would cease to be fully connected.
+
+Assist Virat in configuring the brand connections to meet these requirements.
+The first input line contains 3 space-separated integer numbers 'a', 'b', v (3 ≤ a ≤ 10^5, 0 ≤ b ≤ 10^5, 1 ≤ v ≤ n),
+'a' — amount of brand, 'b' — amount of direct connections, v — index of the brand that fails and leads to the failure of the whole system.
+
+output
+If it is impossible to connect the brands in the required way, output -1. Otherwise output 'b' lines with 2 numbers each — description of all the direct connections in the system.
+Each direct connection is described by two numbers — indexes of two brands, linked by this direct connection. The servers are numbered from 1.
+If the answer is not unique, output any.
