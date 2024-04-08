@@ -1,0 +1,15 @@
+In the enigmatic realm of Ardenia, there are n cities connected by m two-way roads of equal length.
+These cities are numbered from 1 to n inclusively. According to an ancient legend, traversing three consecutive cities, ai, bi, and ci, in order brings about great misfortune.
+There are k such ordered city triplets known. Vasya endeavors to journey from city 1 to city n while avoiding these ominous triplets. Find the shortest route for him to take, and propose one viable path for his journey.
+
+The first line contains three integers n, m, k (2 ≤ n ≤ 3000, 1 ≤ m ≤ 20000, 0 ≤ k ≤ 105) which are the number of cities, the number of roads and the number of the forbidden triplets correspondingly.
+
+Then follow m lines each containing two integers xi, yi (1 ≤ xi, yi ≤ n) which are the road descriptions. The road is described by the numbers of the cities it joins. No road joins a city with itself, there cannot be more than one road between a pair of cities.
+
+Then follow k lines each containing three integers ai, bi, ci (1 ≤ ai, bi, ci ≤ n) which are the forbidden triplets. Each ordered triplet is listed mo more than one time. All three cities in each triplet are distinct.
+
+City n can be unreachable from city 1 by roads
+
+Output
+If there are no path from 1 to n print -1. Otherwise on the first line print the number of roads d along the shortest path from the city 1 to the city n. On the second line print d + 1 numbers — any of the possible shortest paths for Vasya.
+The path should start in the city 1 and end in the city n.
