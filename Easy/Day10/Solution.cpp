@@ -22,5 +22,6 @@ int main()
 
     long long a, b, m;
     cin >> a >> b >> m;
+    
     cout << BinExpo(a, b, m) << endl;
 }
