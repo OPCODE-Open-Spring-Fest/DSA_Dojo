@@ -1,0 +1,10 @@
+Long ago, when Alexei was a schoolboy, he had a strong interest in the grammar of the fictional language called LexiScript.
+During one of his lessons, Alexei became fascinated by the following question:
+How many distinct continuous substrings exist in the given string t that start with "sbegin" and end with "send" (where "sbegin" and "send" can be the same)?
+Two substrings are considered different if their contents are not identical, regardless of their positions.
+Alexei found this question challenging and sought assistance in counting them. Let's help him out!
+
+first line - string t;
+second line - sbegin;
+third line - send;
+The length of each string doesn't exceed 2000 characters.
