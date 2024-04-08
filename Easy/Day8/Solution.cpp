@@ -12,6 +12,7 @@ long long BinExpo(long long a, long long b, long long m)
         return ((a * (res % m)) % m * (res % m)) % m;
     }
     else
+    
     {
         return (res * res) % m;
     }
