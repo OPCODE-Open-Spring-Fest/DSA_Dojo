@@ -1,0 +1,22 @@
+In a fantastical underwater city, shimmering coral castles rose from the sandy seabed.
+Each castle, numbered from 1 to n, boasted a luminous hue, distinct from its neighbors.
+Legends whispered of magical currents, known as "glimmering streams," that flowed through this dazzling metropolis.
+But only the most astute merfolk could navigate them.
+
+These glimmering streams possessed three unique properties:
+
+->A Luminescent Journey: The current had to flow through at least two castles, ensuring a proper underwater voyage.
+
+->Twin Beacons: The starting and ending castles had to be bathed in the same mesmerizing light, like a journey returning to its source.
+
+->A Kaleidoscope of Color: No other castle along the current could be bathed in the starting light. The path needed to explore the vibrant tapestry of colors, avoiding familiar territory.
+Count the number of the glimmering streams of the fantastical underwater city.
+
+The first line contains a single integer t (1≤t≤10^4) — the number of testcases.
+
+The first line of each testcase contains a single integer n (2≤n≤2⋅10^5) — the number of castle in the fantastical underwater city.
+
+The second line contains n integers d1,d2,…,dn(1≤di≤n) — the color of each castle.
+
+The i-th of the next n−1 lines contains two integers ai and bi (1≤ai,bi≤n; ai≠bi) — the i-th edge of the the fantastical underwater city.
+
