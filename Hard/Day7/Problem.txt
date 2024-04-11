@@ -20,3 +20,5 @@ The second line contains n integers d1,d2,…,dn(1≤di≤n) — the color of ea
 
 The i-th of the next n−1 lines contains two integers ai and bi (1≤ai,bi≤n; ai≠bi) — the i-th edge of the the fantastical underwater city.
 
+For each testcase, print a single integer — the number of the glimmering streams of the fantastical underwater city.
+
