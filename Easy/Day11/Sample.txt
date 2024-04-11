@@ -1,0 +1,5 @@
+Input:
+8
+
+Output:
+125

@@ -1,0 +1,10 @@
+Let's imagine you're playing a game where you roll a regular six-sided die (with numbers 1 to 6 on its faces).
+You want to find out how many different ways you can roll the dice to get a specific total score,  n.
+For example, if  n  is 10, you could roll a 3, 3, and 4, or a 1, 4, 1, and 4, and so on.
+This task asks you to count the total number of winning roll combinations that add up to exactly  n.
+
+Constraints
+
+1 <= n <= 10^18;
+
+Print the number of ways modulo 10^9+7.
