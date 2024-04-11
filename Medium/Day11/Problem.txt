@@ -1,0 +1,6 @@
+Imagine we have a range of numbers from  n  to  m. How many of these numbers have unique digits in each position?
+In other words, no two digits next to each other can be the same.
+
+Constraints
+
+0 <= n <= m <= 10^18
