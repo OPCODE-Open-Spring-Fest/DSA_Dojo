@@ -1,0 +1,13 @@
+
+In a distant binary realm, there lived an adept mathematician known as Satyam. Satyam stumbled upon a binary string S,
+adorned with dashes (-) scattered throughout its characters. Seeking simplicity, Satyam devised a series of operations:
+
+He replaced "0101" with "a"
+"1010" with "b"
+"010" with "ab"
+"101" with "ba"
+As Satyam delved deeper, he realized that altering the sequence of these operations could result in different final strings.
+Intrigued by this puzzle, he contemplated the number of initial strings that could lead to the same final string, composed solely of 'a's and 'b's.
+
+Given the potential vastness of initial strings, Satyam aimed to compute this count modulo 998244353.
+Let's assist Satyam in determining this count efficiently.

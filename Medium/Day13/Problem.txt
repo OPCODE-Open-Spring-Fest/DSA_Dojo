@@ -1,0 +1,18 @@
+One day, Ronaldo stumbled upon a curious puzzle that piqued his interest.
+It involved discovering special sets of integers, which he fancifully named "Binary Bouquets".
+Each bouquet was represented by an N-tuple, denoted as (B1, B2, ..., BN). However, in Ronaldo world, these tuples were akin to arranging binary blossoms!
+
+Each "blossom" in the bouquet had its unique petals, ranging from 0 to 2^M - 1, with M symbolizing the magic number of petals.
+The challenge lay in arranging these binary blossoms so that when their petals were combined using the bitwise AND operation, the result would always be 0.
+It was as if Ronaldo was orchestrating a symphony of zeros and ones on the field of numbers.
+
+As Ronaldo dove deeper into the puzzle, he realized the immense possibilities it presented. The number of Binary Bouquets seemed endless,
+and he was determined to find a way to count them efficiently.
+
+Driven by his passion for both the game and the puzzle, Ronaldo embarked on a quest to conquer this riddle.
+With his sharp mind and mathematical acumen, he sought a method to calculate the count of Binary Bouquets modulo 10^9 + 7,
+ensuring his solution remained within bounds.
+
+Constraints
+1 ≤ T ≤ 10^5
+1 ≤ N , M ≤ 10^6

@@ -1,0 +1,6 @@
+Input
+1
+2 2
+
+Output
+9
