@@ -1,0 +1,21 @@
+you've been presented with an array 1,2,…,b1,b2,…,bn along with a claim from an anonymous source. According to this claim, the array 
+b was derived from another array 1,2,…,a1,a2,…,an through a series of operations.
+
+Here's how these operations were carried out:
+
+Initially, there was an array a.
+Then, a two-step process was repeated k times:
+A specific position x in the array a was chosen. This position x is called a "fixed point" if 
+1≤x≤n and  ax = x.
+The array a was shifted cyclically to the left x times.
+After k repetitions of these steps, the array b was obtained.
+
+Your task is to verify whether this explanation is plausible or if it's definitely incorrect.
+
+Each test contains multiple test cases. The first line contains an integer t (1≤t≤10^4) — the number of test cases. The description of the test cases follows.
+
+The first line of each test case contains two integers n,k (1≤n≤2⋅105 , 1≤k≤109) — the length of the array b and the number of operations performed.
+
+The second line of each test case contains n integers b1,b2,…,bn (1≤bi≤109) — the elements of the array b.
+
+It is guaranteed that the sum of the values of n for all test cases does not exceed 2⋅105.
