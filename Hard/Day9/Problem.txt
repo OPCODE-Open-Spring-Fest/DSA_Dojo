@@ -1,0 +1,19 @@
+Marin and Gojou are engaged in a game of hide-and-seek with an array.
+
+Gojou begins by taking the following steps:
+
+First, he selects two integers, l and r, where l is less than or equal to r.
+
+Next, Gojou creates an array a of length r−l+1, which is a permutation of the sequence [l,l+1,…,r].
+
+Then, he chooses a secret integer, x, and updates each element ai of the array a to ai⊕x using the bitwise XOR operation.
+
+Marin's task is to determine the secret integer x, given the values of l, r, and the final array a. She must uncover any possible values of x that could have led to the resulting array a.
+
+The first line contains a single integer t (1≤t≤105) — the number of test cases.
+
+In the first line of each test case contains two integers l and r (0=l≤r<217).
+
+The second line contains r−l+1 integers of a1,a2,…,ar−l+1 (0≤ai<217). It is guaranteed that a can be generated using the steps performed by Gojou.
+
+It is guaranteed that the sum of r−l+1 over all test cases does not exceed 217.
