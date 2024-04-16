@@ -1,0 +1,10 @@
+You're presented with a string, s, containing only the characters 0 and/or 1.
+
+Your task is to eliminate some (possibly none) characters from the start of the string and some (possibly none) characters from the end of the string. This might result in an empty string. The cost of removal is determined by the maximum of the following two options:
+
+The count of remaining characters 0 in the string.
+The count of removed characters 1 from the string.
+What's the least cost you can achieve by removing characters from the string?
+
+Output
+For each test case, print one integer — the minimum cost of removal you can achieve.
